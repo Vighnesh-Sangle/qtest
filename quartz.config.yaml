@@ -95,6 +95,9 @@ plugins:
     enabled: true
     options:
       renderEngine: katex
+      customMacros: {
+        "\\RR": "\\mathbb{R}"
+      }
     order: 80
   - source: "@quartz-community/citations"
     enabled: false
